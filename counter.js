@@ -1,0 +1,21 @@
+let count = 0;
+            // const heading = document.querySelector('h1');
+function Counter() {
+    count++;
+                // alert("Count is now "+ count);
+                // heading.innerHTML = count;
+    document.querySelector('h1').innerHTML = count;
+
+    if(count%10 === 0) {
+        alert(`Reached count ${count}`);
+            }
+}
+           // event listner  
+           // DOMContentLoaded what does is that after whole page or event is loaded then check for the element in it
+document.addEventListener('DOMContentLoaded',function() {
+document.querySelector('button').onclick = Counter; 
+          //in javascript functions can be treated as a values of their own.
+         //document.querySelector('button').addEventListener('click', counter);
+});
+        //    document.addEventListener('click', <name_of_function>);
+        //    document.addEventListener('scroll', <name_of_function>);

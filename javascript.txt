@@ -1,0 +1,20 @@
+javacript will enable us to run script exclusievly on the client web browser.
+
+event driven programing
+
+events like 
+   clicks on a button
+   click something from a drop down list
+   scrolls through a list
+   submits a form
+
+add event listeners or event handlers
+  so when user clicks a particular thing, we have to configure which functions to run.
+
+Javascript enables us to manipulate the DOM (Document Object Model) which represents all the elements that happen to be on that page .
+
+document.querySelector('tag')
+document.querySelector('#id')
+document.querySelector('.class')
+
+as in python we use list we can use same in javascript too.
