@@ -18,3 +18,12 @@ document.querySelector('#id')
 document.querySelector('.class')
 
 as in python we use list we can use same in javascript too.
+
+Events in javascript :
+    onclick
+    onmouseover
+    onkeydown
+    onkeyup
+    onload
+    onblur
+    and many more events are their in javacript

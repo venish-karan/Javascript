@@ -11,11 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
             // document.querySelector('#green').onclick = function() {
             //     document.querySelector('#hello').style.color = 'green';
             // };
-            document.querySelectorAll('button').forEach(function(button) {
-                button.onclick = function() {
-                    document.querySelector('#hello').style.color = button.dataset.color;
-                }
-            });
+            // document.querySelectorAll('button').forEach(function(button) {
+            //     button.onclick = function() {
+            //         document.querySelector('#hello').style.color = button.dataset.color;
+            //     }
+            // });
+
+            document.querySelector('select').onchange = function() {
+                document.querySelector('#hello').style.color = this.value; // this is keyword which refer to select in this context 
+            }
         });
         // also you can use this notation => for function
         // document.querySelectorAll('button').forEach(button => {
