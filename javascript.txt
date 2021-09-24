@@ -27,3 +27,11 @@ Events in javascript :
     onload
     onblur
     and many more events are their in javacript
+    
+    
+let person = {
+  first: "Harry",
+  last: "Potter";
+};
+// calling element from the dictionary
+person.first or person["fisrt"];
